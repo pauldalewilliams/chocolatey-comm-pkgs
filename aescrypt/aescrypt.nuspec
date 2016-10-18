@@ -8,6 +8,11 @@
     <owners>Packetizer, Inc.</owners>
     <licenseUrl>https://raw.githubusercontent.com/kenkendk/sharpaescrypt/master/license.txt</licenseUrl>
     <projectUrl>https://www.aescrypt.com</projectUrl>
+	<packageSourceUrl>https://github.com/pauldalewilliams/chocolatey-comm-pkgs/blob/master/aescrypt/aescrypt.3.10.nupkg</packageSourceUrl>
+	<docsUrl>https://www.aescrypt.com/documentation/</docsUrl>
+	<mailingListUrl>https://forums.packetizer.com/viewforum.php?f=72</mailingListUrl>
+	<bugTrackerUrl>https://forums.packetizer.com/viewforum.php?f=72</bugTrackerUrl>
+	<projectSourceUrl>https://github.com/paulej/AESCrypt</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/pauldalewilliams/chocolatey-comm-pkgs/master/aescrypt/aes_crypt_64x64.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>AES Crypt is a file encryption software available on several operating systems that uses the industry standard Advanced Encryption Standard (AES) to easily and securely encrypt files.
@@ -20,6 +25,11 @@ AES Crypt is the perfect tool for anyone who carries sensitive information with 
 
 Best of all, AES Crypt is completely free open source software. Since it is open source, several people have contributed to the software and have reviewed the software source code to ensure that it works properly to secure information. Most important to most users, though, is the fact that the software is available at no cost. You are free to use this software in your business, at home, or in your own open source development projects.</description>
     <summary>File encryption software, Free and Open Source</summary>
-    <tags>encrypt aes aescrypt security</tags>
+    <tags>encrypt aes aescrypt security admin</tags>
+	<releaseNotes>A bug was reported and verified relating to the Windows GUI version of AES Crypt. The issue observed is that if the last write operation when creating an AES Crypt file would fail due to lack of disk space (either artificial or due to limitations of the file system), the write failure would not be detected. This caused data to be lost at the end of the output file.
+
+In theory, the same issue exists on Linux and Mac (GUI and command-line), though I could not reproduce the same issue. On Linux, at least, it seemed to catch the error. Nonetheless, I put code in place to watch for that on all platforms.
+
+The Windows code has been updated to 3.10, as has the Linux source code (also 3.10). I still do not have binary versions for Linux or Mac, but those will get built as soon as possible. For consistency sake, I'll make all versions "3.10" once the other packages are updated, so you'll know if you're running older code or not.</releaseNotes>
   </metadata>
 </package>
