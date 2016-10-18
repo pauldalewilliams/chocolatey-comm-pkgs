@@ -8,7 +8,7 @@
     <owners>Packetizer, Inc.</owners>
     <licenseUrl>https://raw.githubusercontent.com/kenkendk/sharpaescrypt/master/license.txt</licenseUrl>
     <projectUrl>https://www.aescrypt.com</projectUrl>
-    <iconUrl>https://www.aescrypt.com/images/aes_crypt_64x64.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/pauldalewilliams/chocolatey-comm-pkgs/master/aescrypt/aes_crypt_64x64.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>AES Crypt is a file encryption software available on several operating systems that uses the industry standard Advanced Encryption Standard (AES) to easily and securely encrypt files.
 
