@@ -5,7 +5,7 @@
     <version>3.10</version>
     <title>AESCrypt</title>
     <authors>Packetizer, Inc.</authors>
-    <owners>Packetizer, Inc.</owners>
+    <owners>pauldalewilliams,spbarefoot</owners>
     <licenseUrl>https://raw.githubusercontent.com/kenkendk/sharpaescrypt/master/license.txt</licenseUrl>
     <projectUrl>https://www.aescrypt.com</projectUrl>
 	<packageSourceUrl>https://github.com/pauldalewilliams/chocolatey-comm-pkgs/blob/master/aescrypt/aescrypt.3.10.nupkg</packageSourceUrl>
