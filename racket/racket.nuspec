@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>racket</id>
+    <title>Racket</title>
+    <version>6.7</version>
+    <authors>PLT Inc.</authors>
+    <owners>pauldalewilliams, sindux</owners>
+    <projectUrl>http://racket-lang.org/</projectUrl>
+	<licenseUrl>http://download.racket-lang.org/license.html</licenseUrl>
+	<packageSourceUrl>https://github.com/pauldalewilliams/chocolatey-comm-pkgs/tree/master/racket</packageSourceUrl>
+	<docsUrl>https://docs.racket-lang.org/</docsUrl>
+	<mailingListUrl>https://lists.racket-lang.org/</mailingListUrl>
+	<bugTrackerUrl>http://bugs.racket-lang.org/?v=6.7</bugTrackerUrl>
+	<projectSourceUrl>https://github.com/racket/racket</projectSourceUrl>
+    <summary>Racket - A programmable programming language</summary>
+    <description>Racket is a full-spectrum programming language. It goes beyond Lisp and Scheme with dialects that support objects, types, laziness, and more. Racket enables programmers to link components written in different dialects, and it empowers programmers to create new, project-specific dialects. Racket's libraries support applications from web servers and databases to GUIs and charts.</description>
+    <tags>racket lisp scheme admin</tags>
+    <copyright></copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://docs.racket-lang.org/release/index.html
+	If you'd like to install 32-bit version on 64-bit Windows, pass the "--x86" argument to choco install.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

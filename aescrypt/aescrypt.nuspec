@@ -8,7 +8,7 @@
     <owners>pauldalewilliams,spbarefoot</owners>
     <licenseUrl>https://raw.githubusercontent.com/kenkendk/sharpaescrypt/master/license.txt</licenseUrl>
     <projectUrl>https://www.aescrypt.com</projectUrl>
-	<packageSourceUrl>https://github.com/pauldalewilliams/chocolatey-comm-pkgs/blob/master/aescrypt/aescrypt.3.10.nupkg</packageSourceUrl>
+	<packageSourceUrl>https://github.com/pauldalewilliams/chocolatey-comm-pkgs/tree/master/aescrypt</packageSourceUrl>
 	<docsUrl>https://www.aescrypt.com/documentation/</docsUrl>
 	<mailingListUrl>https://forums.packetizer.com/viewforum.php?f=72</mailingListUrl>
 	<bugTrackerUrl>https://forums.packetizer.com/viewforum.php?f=72</bugTrackerUrl>
