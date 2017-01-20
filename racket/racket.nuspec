@@ -7,6 +7,7 @@
     <authors>PLT Inc.</authors>
     <owners>pauldalewilliams, sindux</owners>
     <projectUrl>http://racket-lang.org/</projectUrl>
+	<iconUrl>http://upload.wikimedia.org/wikipedia/commons/e/e5/Racket_logo.png</iconUrl>
 	<licenseUrl>http://download.racket-lang.org/license.html</licenseUrl>
 	<packageSourceUrl>https://github.com/pauldalewilliams/chocolatey-comm-pkgs/tree/master/racket</packageSourceUrl>
 	<docsUrl>https://docs.racket-lang.org/</docsUrl>
