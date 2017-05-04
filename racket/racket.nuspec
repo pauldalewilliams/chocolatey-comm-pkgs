@@ -3,7 +3,7 @@
   <metadata>
     <id>racket</id>
     <title>Racket</title>
-    <version>6.9</version>
+    <version>6.9.0.20170504</version>
     <authors>PLT Inc.</authors>
     <owners>pauldalewilliams, sindux</owners>
     <projectUrl>http://racket-lang.org/</projectUrl>
