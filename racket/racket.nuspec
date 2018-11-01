@@ -3,7 +3,7 @@
   <metadata>
     <id>racket</id>
     <title>Racket</title>
-    <version>7.0</version>
+    <version>7.1</version>
     <authors>PLT Inc.</authors>
     <owners>pauldalewilliams, sindux</owners>
     <projectUrl>http://racket-lang.org/</projectUrl>
@@ -12,7 +12,7 @@
 	<packageSourceUrl>https://github.com/pauldalewilliams/chocolatey-comm-pkgs/tree/master/racket</packageSourceUrl>
 	<docsUrl>https://docs.racket-lang.org/</docsUrl>
 	<mailingListUrl>https://lists.racket-lang.org/</mailingListUrl>
-	<bugTrackerUrl>http://bugs.racket-lang.org/?v=7.0</bugTrackerUrl>
+	<bugTrackerUrl>http://bugs.racket-lang.org/?v=7.1</bugTrackerUrl>
 	<projectSourceUrl>https://github.com/racket/racket</projectSourceUrl>
     <summary>Racket - A programmable programming language</summary>
     <description>Racket is a full-spectrum programming language. It goes beyond Lisp and Scheme with dialects that support objects, types, laziness, and more. Racket enables programmers to link components written in different dialects, and it empowers programmers to create new, project-specific dialects. Racket's libraries support applications from web servers and databases to GUIs and charts.</description>
