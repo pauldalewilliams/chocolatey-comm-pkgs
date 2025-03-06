@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>racket</id>
-    <version>8.15</version>
+    <version>8.16</version>
     <title>Racket</title>
     <authors>PLT Inc.</authors>
     <owners>pauldalewilliams, sindux</owners>
