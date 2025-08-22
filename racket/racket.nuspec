@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>racket</id>
-    <version>8.17</version>
+    <version>8.18</version>
     <title>Racket</title>
     <authors>PLT Inc.</authors>
     <owners>pauldalewilliams, sindux</owners>
@@ -13,7 +13,7 @@
     <description>Racket is a full-spectrum programming language. It goes beyond Lisp and Scheme with dialects that support objects, types, laziness, and more. Racket enables programmers to link components written in different dialects, and it empowers programmers to create new, project-specific dialects. Racket's libraries support applications from web servers and databases to GUIs and charts.</description>
     <summary>Racket - A programmable programming language</summary>
     <releaseNotes>https://docs.racket-lang.org/release/index.html
-	If you'd like to install 32-bit version on 64-bit Windows, pass the "--x86" argument to choco install.</releaseNotes>
+	As of v8.18, Racket no longer distributes 32-bit BC bundles for Windows.</releaseNotes>
     <copyright />
     <tags>racket lisp scheme admin</tags>
     <projectSourceUrl>https://github.com/racket/racket</projectSourceUrl>
